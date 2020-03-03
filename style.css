@@ -65,3 +65,31 @@ img{
 .clear {
   clear:both;
 }
+
+/* Responsive Part */
+
+@media screen and (max-width: 420px) {
+  #lezioni .row > .left,
+  #lezioni .row > .right,
+  #steps .row > .left,
+  #steps .row > .central,
+  #steps .row > .right {
+
+    float: none;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  /* Chiedere come mai mi risulta un body che sta sulla sinistra dell'intera pagina */
+  .container.grey{
+    background-color: red;
+  }
+  #steps .row .left,
+  #steps .row .right,
+  #steps .row .central  {
+    background-color: #f9f9f9;
+  }
+  h1,
+  h3 {
+    font-size: 190%;
+  }
+}
